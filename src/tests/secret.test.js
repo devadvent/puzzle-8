@@ -42,7 +42,7 @@ test(`Everyone should have a secret santa`, () => {
     expect(() => assignNames(array4)).toThrow(Error('DUPLICATE_NAMES'))
 })
 
-const array5 = ['a', 'b', 'c', 'c']
+const array5 = ['a', 'b', 'c', 'd']
 test(`The result should not be empty`, () => {
     const list = assignNames(array5)
 
