@@ -20,7 +20,7 @@ Complete the function `assignNames` in the file [src/utils/secret.js](src/utils/
 Example:
 
 ```javascript
-;[
+[
     { name: 'Jimmy', secretSanta: 'Johnny' },
     { name: 'Johnny', secretSanta: 'Sandra' },
     { name: 'Sandra', secretSanta: 'Jimmy' },
