@@ -15,7 +15,7 @@ Usually this is in-person: All names are thrown in a hat, and each participant d
 
 Find the names of the elves in [src/data/elves.js](src/data/elves.js).
 
-Complete the function `assignNames` in the file [src/utils/secret.js](src/utils/secret.js) so that it returns an array of objects with name and secretSanta.
+Complete the function `assignNames` in the file [src/utils/secret.js](src/utils/secret.js) so that it returns an array of objects with name and secretSanta. The passed parameter `names` is an array of names (as `String`)
 
 Example:
 
