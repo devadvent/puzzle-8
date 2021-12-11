@@ -38,7 +38,7 @@ for (let index = 0; index < rounds; index++) {
 }
 
 const array4 = ['a', 'b', 'c', 'c']
-test(`Everyone should have a secret santa`, () => {
+test(`When there are duplicate names, it should throw a "Error('DUPLICATE_NAMES')"`, () => {
     expect(() => assignNames(array4)).toThrow(Error('DUPLICATE_NAMES'))
 })
 
