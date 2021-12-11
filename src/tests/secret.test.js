@@ -9,7 +9,6 @@ for (let index = 0; index < rounds; index++) {
         const list = assignNames(array1)
         const a = list.find(({ name }) => name === 'a')
         const b = list.find(({ name }) => name === 'b')
-        console.log({ a, b })
         expect(a.secretSanta).toBe('b')
         expect(b.secretSanta).toBe('a')
     })
